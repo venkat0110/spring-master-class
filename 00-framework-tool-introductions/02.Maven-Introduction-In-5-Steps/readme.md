@@ -30,6 +30,7 @@
 ### Step 3 : Maven Build Life Cycle
  - run "mvn clean install" 
  - Build LifeCycle - Validate, Compile, Test, Package, Integration Test, Verify, Install, Deploy
+ -For every command it will run all previous steps
  - Convention over Configuration - Pre defined folder structure
 	- Source Code
 		- ${basedir}/src/main/java
